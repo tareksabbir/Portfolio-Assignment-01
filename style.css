@@ -85,3 +85,102 @@ a {
   grid-column-gap: 2rem;
   grid-row-gap: 6rem;
 }
+
+.develop-part img {
+  height: 400px;
+  width: 400px;
+  padding-left: 6rem;
+}
+
+.develop-part p {
+  padding-bottom: 2rem;
+}
+
+#padding-add {
+  padding-left: 5rem;
+}
+
+h1 {
+  font-family: poppins;
+  font-size: 36px;
+  font-family: 600;
+  line-height: 54px;
+}
+
+.develop-part {
+  background-image: url("./images/shapes/shape-1.png");
+  background-size: 227px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 1rem;
+}
+
+.develop-part.community {
+  background-image: url("./images/shapes/shape-1.png");
+  background-size: 227px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-left: 1rem;
+}
+
+section.contact {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+section.contact .contact-us {
+  align-items: center;
+}
+
+section.contact .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+}
+section.contact .card-wrapper .card {
+  text-align: center;
+}
+section.contact .card-wrapper .card img {
+  margin-bottom: 2rem;
+  height: 80px;
+  width: 80px;
+}
+
+section.contact .card-wrapper .card h1 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+section.contact .card-wrapper .card h6 {
+  font-size: 1rem;
+  color: var(--ternary);
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+section.contact .input-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-bottom: 2rem;
+}
+section.contact .input-wrap-2 {
+  display: flex;
+  flex-direction: column;
+}
+section.contact input {
+  padding: 0.5rem;
+  border: 1px solid var(--light);
+  font-size: 0.9rem;
+}
+section.contact .input-wrap-2 input {
+  margin-bottom: 2rem;
+  border: 1px solid var(--light);
+}
+section.contact .input-wrap-2 textarea {
+  padding: 0.5rem;
+  border: 1px solid var(--light);
+}
+section.contact .btn-wrapper {
+  text-align: center;
+  margin-top: 2rem;
+}
